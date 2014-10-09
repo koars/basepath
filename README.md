@@ -1,5 +1,7 @@
 koars-basepath
 ==============
+[![Build Status](https://img.shields.io/travis/koars/basepath.svg?style=flat)](https://travis-ci.org/koars/basepath)
+
 This module provides koa middleware to prefix your applications routes with a fixed string. This is useful if you want to run your application behind a reverse proxy.
 
 The basepath is taken by the `BASEPATH` environment variable.
