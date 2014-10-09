@@ -19,7 +19,7 @@
     "sinon": "^1.10.3"
   },
   "scripts": {
-    "test": "NODE_ENV=test mocha --harmony --require must --require co-mocha && jshint --reporter node_modules/jshint-stylish/stylish.js"
+    "test": "NODE_ENV=test mocha --harmony --require must --require co-mocha && jshint . --exclude-path .gitignore --reporter node_modules/jshint-stylish/stylish.js"
   },
   "keywords": [
     "koa",
