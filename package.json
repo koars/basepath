@@ -1,0 +1,36 @@
+{
+  "name": "koars-basepath",
+  "version": "1.0.0",
+  "description": "Provides koa middleware to prefix redirects and routes with a basepath",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/koars/basepath.git"
+  },
+  "dependencies": {
+    "koars-utils": "^1.0.0"
+  },
+  "devDependencies": {
+    "co-mocha": "^1.0.1",
+    "jshint": "^2.5.6",
+    "jshint-stylish": "^1.0.0",
+    "mocha": "^1.21.4",
+    "must": "^0.12.0",
+    "sinon": "^1.10.3"
+  },
+  "scripts": {
+    "test": "NODE_ENV=test mocha --harmony --require must --require co-mocha && jshint --reporter node_modules/jshint-stylish/stylish.js"
+  },
+  "keywords": [
+    "koa",
+    "koars",
+    "middleware"
+  ],
+  "author": "Florian Albertz",
+  "license": "BSD-3",
+  "jshintConfig": {
+    "node": true,
+    "mocha": true,
+    "esnext": true
+  }
+}
